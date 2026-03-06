@@ -72,6 +72,13 @@ Output:
 Hello, Verilog!
 ```
 
+🔎 Viewing the Schematic
+
+You can generate a schematic diagram of the Verilog design using Yosys.
+Click on the Schematic Viewer icon in the top right corner near the 📖 Open notebook sign
+
+
+
 ## 📊 Viewing Waveforms
 
 If your design generates a `.vcd` waveform file, you can open the file, and you will see Netlist View:
@@ -79,7 +86,8 @@ If your design generates a `.vcd` waveform file, you can open the file, and you 
 Click on option -->Netlist View  
 And add variables to the Scope
 
-<img width="1810" height="949" alt="image" src="https://github.com/user-attachments/assets/e6bf4c2f-15b2-4893-b96d-5e9a73ba7d08" />
+<img width="1807" height="985" alt="image" src="https://github.com/user-attachments/assets/1ed60157-9b94-453c-917a-9b87a2d2f3ae" />
+
 
 
 ```
@@ -95,7 +103,7 @@ gtkwave waveform.vcd
 ├── .vscode/
 │   └── extensions.json
 ├── verilog/
-│   └── example.v
+│   └── Example.v
 └── README.md
 ```
 
@@ -124,9 +132,6 @@ Contributions are welcome. Feel free to:
 
 Create a pull request or open an issue.
 
-## 📜 License
-
-This project is open-source and available under the **MIT License**.
 
 ---
 
